@@ -1,0 +1,23 @@
+<!-- You have to put this piece of JavaScript code into your web page
+Note: Use <!DOCTYPE html> on the page where snippet located for better rendering
+-->
+<link type="text/css" rel="stylesheet" href="https://sol.bugfocus.com/clientweb/chat-client-v4_webcall/css/form.css">
+<script type="text/javascript">
+    SERVICE_PATTERN_CHAT_CONFIG = {
+        appId: '123',
+        apiUrl: 'https://sol.bugfocus.com/clientweb/api/v1',
+        tenantUrl: 'example.com',
+        chatPath: 'https://sol.bugfocus.com/clientweb/chat-client-v4_webcall/'
+    };
+</script>
+
+<script src="https://sol.bugfocus.com/clientweb/chat-client-v4_webcall/js/init.js"></script> 
+ <div class="sp-callback-form" id="sp-callback-form" class="sp-callback-form">
+   <label>Request a callback</label>
+   <label>&nbsp;</label>
+   <label>Name:</label>
+   <input type="text" id="sp-callback-name" placeholder="Name" />
+   <label>Phone:</label>
+   <input type="tel" id="sp-callback-phone_number" placeholder="Phone" />
+   <button id="sp-callback-submit">Request Call</button>
+</div>
