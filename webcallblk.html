@@ -3,18 +3,20 @@
 <head>
   <title>WebCallBack</title>
 </head>
-<body>
-<link type="text/css" rel="stylesheet" href="https://ceres.bugfocus.com/clientweb/chat-client-v4/css/form.css">
+<!-- You have to put this piece of JavaScript code into your web page
+Note: Use <!DOCTYPE html> on the page where snippet located for better rendering
+-->
+<link type="text/css" rel="stylesheet" href="https://ceres.ssf.bugfocus.com/clientweb/chat-client-v4/css/form.css">
 <script type="text/javascript">
     SERVICE_PATTERN_CHAT_CONFIG = {
         appId: '123',
-        apiUrl: 'https://ceres.bugfocus.com/clientweb/api/v1',
-        tenantUrl: 'example.com',
-        chatPath: 'https://ceres.bugfocus.com/clientweb/chat-client-v4/'
+        apiUrl: 'https://ceres.ssf.bugfocus.com/clientweb/api/v1',
+        tenantUrl: 'ceres.ssf.bugfocus.com',
+        chatPath: 'https://ceres.ssf.bugfocus.com/clientweb/chat-client-v4/'
     };
 </script>
 
-<script src="https://ceres.bugfocus.com/clientweb/chat-client-v4/js/init.js"></script> 
+<script src="https://ceres.ssf.bugfocus.com/clientweb/chat-client-v4/js/init.js"></script> 
  <div class="sp-callback-form" id="sp-callback-form">
    <label>Request a callback</label>
    <label>&nbsp;</label>
@@ -24,7 +26,6 @@
    <input type="tel" id="sp-callback-phone_number" placeholder="Phone" />
    <button id="sp-callback-submit-inline">Request Call</button>
 </div>
-</body>
 </html>
 
 
